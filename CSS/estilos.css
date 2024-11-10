@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sriracha, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor{
+    width: 1200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #08274A;
+    border-radius: 0 0 25px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bmenu{
+    padding-right: 40px;
+}
+
+a{
+    color: white;
+    font-family: Merienda;
+}
+
+a:hover{
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+.logo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #08274A;
+    margin-bottom: 5px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    color: #b1b1b1;
+}
+
+h2{
+    font-family: Merienda;
+    color: #b1b1b1;
+    font-size: 22px;
+    margin-top: 55px;
+    margin-left: 160px;
+}
+
+p{
+    margin-left: 160px;
+    margin-bottom: 25px;
+    margin-top: 2px;
+}
+
+.galeria{
+    width: 800;
+    margin-left: 160px;
+    margin-right: auto;
+}
+
+img.imagen{
+    margin: -3px;
+}
+
+img.AME01{
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    border: solid 5px #b1b1b1;
+}
+
+a.regresar{
+    color: #b1b1b1;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+/*Inicia apartado sobre mí*/
+
+article.sobre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.mifoto{
+    size: 500px;
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+h2.sobre{
+    color: #08274A;
+    text-align: center;
+    font-size: 45px;
+}
+
+p.sobre{
+    font-size: 16px;
+    color: #b1b1b1;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 300px;
+}
+
+/*botones de redes*/
+
+div.redes{
+    width: 70px;
+    height: 210px;
+    background-color: #b1b1b1;
+    position: fixed;
+    top: 220px;
+    left: 95px;
+    border-radius: 13px;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    padding: 2px;
+    margin-top: 4px;
+}
+
+/*derechos reservados*/
+p.derechos{
+    text-align: center;
+    color: #b1b1b1;
+    background-color: black;
+}
